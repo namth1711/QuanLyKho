@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Sản Phẩm">
+        <menu>
+            <item android:id="@+id/qlPhieuXuatKho" android:title="Quản lý phiếu xuất kho" android:icon="@drawable/ic_home" />
+            <item android:id="@+id/qlLoaiSanPham" android:title="Quản lý loại sản phẩm" android:icon="@drawable/ic_home" />
+        </menu>
+    </item>
+
+    <item android:title="Thống Kê">
+        <menu>
+            <item android:id="@+id/tkXuatKho" android:title="Xuất kho" android:icon="@drawable/ic_home"/>
+            <item android:id="@+id/tkTonKho" android:title="Tồn Kho" android:icon="@drawable/ic_home"/>
+        </menu>
+    </item>
+
+    <item android:title="Thành Viên (Admin Only)">
+        <menu>
+            <item android:title="Quản lý thành viên" android:icon="@drawable/ic_home" android:id="@+id/qlthanhvien" />
+        </menu>
+    </item>
+
+    <item android:title="Người Dùng">
+        <menu>
+            <item android:id="@+id/qltaikhoan" android:title="Quản lý tài khoản" android:icon="@drawable/ic_home" />
+            <item android:id="@+id/vehome" android:title="Home" android:icon="@drawable/ic_home" />
+            <item android:id="@+id/thoat" android:title="Thoát" android:icon="@drawable/ic_home" />
+        </menu>
+    </item>
+
+</menu>

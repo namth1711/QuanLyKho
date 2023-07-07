@@ -1,0 +1,15 @@
+<resources>
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Các thuộc tính khác -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <string name="app_name" translatable="false">Quản lý kho</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string-array name="lever_options">
+        <item>admin</item>
+        <item>thukho</item>
+    </string-array>
+</resources>
