@@ -37,6 +37,7 @@ public class UserFragment extends Fragment {
     private EditText edSearch;
     private Button btnSearch, btnHuy;
 
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
